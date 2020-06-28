@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
 // we are able to do this because we made navbar the entry point in that folder
 import Navbar from "../components/Globals/Navbar"
+import Footer from "./Globals/Footer"
 
 // import "./layout.css"
 
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Navbar />
       <main>{children}</main>
+      <Footer />
     </>
   )
 }
