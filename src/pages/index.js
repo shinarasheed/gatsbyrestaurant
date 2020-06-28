@@ -1,14 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { HomeHeader } from "../utils"
+import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg.jpeg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" key={[`restaurant`, `food`]} />
     <HomeHeader img={img}>
-      <h1> this is the homepage</h1>
+      <Banner title="eatery" subtitle="55 main street - Santa Monica CA">
+        <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
+      </Banner>
     </HomeHeader>
   </Layout>
 )
