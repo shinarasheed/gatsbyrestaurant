@@ -13,13 +13,13 @@ export default class NavbarIcons extends Component {
       },
 
       {
-        id: 1,
+        id: 2,
         icon: <FaTwitter className="icon twitter-icon" />,
         path: "https://www.twitter.com",
       },
 
       {
-        id: 1,
+        id: 3,
         icon: <FaInstagram className="icon instagram-icon" />,
         path: "https://www.instagram.com",
       },
