@@ -29,7 +29,7 @@ const Gallery = () => {
       <GalleryWrapper>
         {images.map(({ node }, index) => {
           return (
-            <div key={node.id} className={`item item-${index + 1}`}>
+            <div key={index} className={`item item-${index + 1}`}>
               <Img fluid={node.childImageSharp.fluid} />
               <p className="info">awesome pizza</p>
             </div>
